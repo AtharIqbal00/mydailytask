@@ -10,3 +10,7 @@ document.querySelector(".childcontainer").addEventListener('click', (e) => {
     e.stopPropagation()
     alert('childcontainer is clicked')
 })
+
+setInterval(() => {
+    document.querySelector(".childcontainer").style.backgroundcolor = "red"
+}, 1000)
